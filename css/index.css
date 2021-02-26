@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../bg.jpg");
+    background-size: cover;
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+}
+h1{
+    margin-top: 100px;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.Formulario{
+    padding: 30px;
+    margin: auto;
+    border-radius: 55px;
+    font-family: cursive;
+    color: white;
+    background-color: transparent;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 550px;
+    box-shadow: 10px 15px 50px purple;
+    border: none;
+    outline: none;
+}
+h1{
+    text-align: center;
+     
+}
+span{
+    display: inline-block;
+    width: 200px;
+    text-align:initial;
+}
+input{
+    display: inline-block;
+    width: 200px;
+    text-align:initial;
+}
+.boton{
+    background-color: purple;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+    text-align:center;
+}
+.boton:hover{
+    background-color:blueviolet;
+    cursor: pointer;
+}
